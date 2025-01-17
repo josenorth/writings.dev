@@ -18,7 +18,7 @@ body {
     background-color: var(--background-color);
 }
 
-.main-header{
+.main-header {
     width: 100%;
     height: 600px;
     position: relative;
@@ -28,6 +28,7 @@ body {
     width: 100%;
     height: 100px;
 }
+
 .nav-container .nav-wrapper {
     display: flex;
     flex-flow: row nowrap;
@@ -39,22 +40,25 @@ body {
     align-items: center;
     padding: 20px;
 }
+
 .nav-container .nav-wrapper a {
-   text-decoration: none;
-   color: var(--secondary-color);
+    text-decoration: none;
+    color: var(--secondary-color);
 }
-.nav-container nav ul{
+
+.nav-container nav ul {
     display: flex;
     flex-flow: row nowrap;
     gap: 25px;
 }
-.nav-container nav ul li{
+
+.nav-container nav ul li {
     color: var(--secondary-color);
     list-style: none;
     font-size: 20px;
 }
 
-.header-main-container{
+.header-main-container {
     padding-top: 60px;
     display: flex;
     flex-flow: column nowrap;
@@ -63,7 +67,7 @@ body {
     text-align: center;
 }
 
-.header-title h1{
+.header-title h1 {
     color: var(--primary-color);
     font-family: 'Recursive';
     font-style: italic;
@@ -72,11 +76,11 @@ body {
     margin: 30px 0px 0px;
 }
 
-.header-main-container img{
+.header-main-container img {
     width: 128px
 }
 
-.header-title{
+.header-title {
     margin-top: 0;
     font-family: 'Poppins';
     font-weight: 400;
@@ -93,7 +97,7 @@ header hr {
     border: 2px solid var(--hr-color);
 }
 
-.secondary-nav{
+.secondary-nav {
     width: 100%;
     height: 100px;
     display: flex;
@@ -106,7 +110,7 @@ header hr {
     margin-top: 20px;
 }
 
-.secondary-nav ul{
+.secondary-nav ul {
     color: var(--text-color);
     list-style: none;
     display: flex;
@@ -115,21 +119,23 @@ header hr {
     gap: 36px;
 }
 
-.secondary-nav ul li:last-child{
-    color: var(--text-color); /* fallback */
-	background: -webkit-linear-gradient(0deg, var(--text-color), rgba(35,40,48,0.9));
-	background: linear-gradient(110deg, var(--text-color), rgba(35,40,48,0.9));
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+.secondary-nav ul li:last-child {
+    color: var(--text-color);
+    /* fallback */
+    background: -webkit-linear-gradient(0deg, var(--text-color), rgba(35, 40, 48, 0.9));
+    background: linear-gradient(110deg, var(--text-color), rgba(35, 40, 48, 0.9));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.icons-filters svg{
+
+.icons-filters svg {
     margin-right: 5px;
 }
 
 /* main content section */
 
-.section-grid{
+.section-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     width: 65%;
@@ -139,13 +145,13 @@ header hr {
     gap: 20px;
 }
 
-.article-wrapper{
+.article-wrapper {
     background-color: var(--secondary-color);
     border-radius: 15px;
     padding: 15px;
 }
 
-.article-header{
+.article-header {
     font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
@@ -159,7 +165,7 @@ header hr {
     font-style: normal;
 }
 
-.article-footer{
+.article-footer {
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 400;
@@ -175,18 +181,19 @@ header hr {
     object-fit: cover;
 }
 
-.pagination-buttons{
+.pagination-buttons {
     width: 100%;
     height: 150px;
     grid-column-start: 1;
-    grid-column-end: 4 ;
+    grid-column-end: 4;
     display: flex;
     justify-content: center;
     align-items: start;
     padding-top: 50px;
     padding-bottom: 150px;
 }
-.pagination{
+
+.pagination {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -195,7 +202,8 @@ header hr {
     font-style: italic;
     font-size: 18px;
 }
-.pagination ul{
+
+.pagination ul {
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
@@ -204,14 +212,14 @@ header hr {
     color: var(--text-color);
 }
 
-.pagination ul li:nth-child(2){
+.pagination ul li:nth-child(2) {
     color: var(--primary-color);
     width: 100%;
     height: 40px;
     position: relative;
 }
 
-.pagination ul li:nth-child(2)::after{
+.pagination ul li:nth-child(2)::after {
     content: '';
     position: absolute;
     width: 50px;
@@ -221,7 +229,7 @@ header hr {
     left: -15px;
 }
 
-.footer-main{
+.footer-main {
     position: relative;
     width: 100%;
     height: 150px;
@@ -238,7 +246,7 @@ header hr {
     border: 2px solid var(--hr-color);
 }
 
-.networks-container{
+.networks-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -246,7 +254,9 @@ header hr {
     padding-top: 35px;
 }
 
-.by-wrapper, a, button{
+.by-wrapper,
+a,
+button {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -258,7 +268,7 @@ header hr {
     text-decoration: none;
 }
 
-.by-wrapper button{
+.by-wrapper button {
     background-color: var(--background-button-footer);
     border: none;
     border-radius: 5px;
@@ -269,7 +279,9 @@ header hr {
     cursor: pointer;
 }
 
-.twitter-wrapper, a, button{
+.twitter-wrapper,
+a,
+button {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -278,7 +290,7 @@ header hr {
     text-decoration: none;
 }
 
-.twitter-wrapper button{
+.twitter-wrapper button {
     background-color: var(--background-button-footer);
     border: none;
     border-radius: 5px;
@@ -289,37 +301,40 @@ header hr {
     cursor: pointer;
 }
 
-.bars-icon{
+.bars-icon {
     color: var(--secondary-color);
     display: none;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
     .nav-wrapper ul {
-        display:none !important;
+        display: none !important;
     }
 
     .bars-icon {
         display: block;
         z-index: 50;
     }
-    
+
     .secondary-nav {
         height: 145px;
         width: 80%;
         margin: 0 auto;
         padding-top: 15px;
     }
+
     .main-header {
         width: 90%;
         margin: 0 auto;
     }
+
     .nav-container .nav-wrapper {
         padding: 0;
         padding-top: 20px;
         justify-content: space-between;
     }
+
     .secondary-nav ul {
         color: var(--text-color);
         list-style: none;
@@ -332,20 +347,23 @@ header hr {
         padding-left: 10px;
     }
 
-    .pagination-buttons{
+    .pagination-buttons {
         grid-column-start: 1;
-        grid-column-end: 1 ;
+        grid-column-end: 1;
     }
-    .pagination{
+
+    .pagination {
         font-size: 18px;
     }
-    .pagination ul{
+
+    .pagination ul {
         gap: 18px;
     }
 
-    .footer-main{
+    .footer-main {
         height: 215px;
     }
+
     .networks-container {
         flex-flow: column wrap;
         align-items: center;
@@ -356,11 +374,63 @@ header hr {
     }
 
 
-    .by-wrapper, a, button{
+    .by-wrapper,
+    a,
+    button {
         flex-flow: column wrap;
         justify-content: center;
     }
-    .by-wrapper h3{
+
+    .by-wrapper h3 {
         margin-top: 0;
     }
-  }
+}
+
+/* section-grid and nav-secondary responsive styles */
+
+@media (min-width: 1024px) and (max-width: 1435px) {
+    .pagination-buttons {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .pagination-buttons {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .secondary-nav {
+        height: 145px;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+
+    .main-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-container .nav-wrapper {
+        padding: 0;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+
+    .secondary-nav ul {
+        color: var(--text-color);
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 20px;
+        height: 80%;
+        padding-left: 10px;
+    }
+
+}
