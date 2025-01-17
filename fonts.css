@@ -41,6 +41,13 @@
 }
 
 @font-face {
+    font-family: 'Recursive';
+    src: url('assets/fonts/RecursiveSansLnrSt-Italic.ttf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
     font-family: 'Source Sans Pro';
     src: url('assets/fonts/SourceSansPro-Semibold.otf');
     font-style: normal;
