@@ -193,7 +193,7 @@ header hr {
     font-family: 'Recursive';
     font-weight: 500;
     font-style: italic;
-    font-size: 22px;
+    font-size: 18px;
 }
 .pagination ul{
     list-style: none;
@@ -217,7 +217,7 @@ header hr {
     width: 50px;
     height: 3px;
     background: var(--primary-color);
-    top: -50%;
+    top: -40%;
     left: -15px;
 }
 
@@ -227,6 +227,7 @@ header hr {
     height: 150px;
     font-family: 'Source Sans Pro';
     font-weight: 600;
+    font-size: 18px;
 }
 
 .footer-main hr {
