@@ -20,7 +20,7 @@ body {
 
 .main-header{
     width: 100%;
-    height: 75vh;
+    height: 600px;
     position: relative;
 }
 
@@ -288,3 +288,79 @@ header hr {
     padding: 0 15px 0 15px;
     cursor: pointer;
 }
+
+.bars-icon{
+    color: var(--secondary-color);
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .nav-wrapper ul {
+        display:none !important;
+    }
+
+    .bars-icon {
+        display: block;
+        z-index: 50;
+    }
+    
+    .secondary-nav {
+        height: 145px;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    .main-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .nav-container .nav-wrapper {
+        padding: 0;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    .secondary-nav ul {
+        color: var(--text-color);
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 20px;
+        height: 80%;
+        padding-left: 10px;
+    }
+
+    .pagination-buttons{
+        grid-column-start: 1;
+        grid-column-end: 1 ;
+    }
+    .pagination{
+        font-size: 18px;
+    }
+    .pagination ul{
+        gap: 18px;
+    }
+
+    .footer-main{
+        height: 215px;
+    }
+    .networks-container {
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        height: 215px;
+        gap: 30px;
+        padding-top: 5px;
+    }
+
+
+    .by-wrapper, a, button{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .by-wrapper h3{
+        margin-top: 0;
+    }
+  }
