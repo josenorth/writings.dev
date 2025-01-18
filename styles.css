@@ -139,7 +139,7 @@ header hr {
 
 main{
     margin: 0 auto; /* Center the content horizontally */
-    max-width: calc(100% - 500px); /* Leave 250px margin on both sides */
+    max-width: calc(100% - 350px); /* Leave 250px margin on both sides */
 }
 
 .section-grid {
